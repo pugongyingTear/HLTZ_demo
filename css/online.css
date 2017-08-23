@@ -1,0 +1,239 @@
+html, body, ul, li, ol, dl, dd, dt, p,a, h1, h2, h3, h4, h5, h6, form, fieldset, legend,span, img,input {
+	border:0; margin:0; padding:0;
+}
+body{
+	font: 14px "Microsoft Yahei", sans-serif，arial, "Hiragino Sans GB";
+	background: white;
+}
+.onlinecontent{
+	display: none;
+	max-height: 1200px;
+	min-height: 600px;
+	width: 100%;
+	margin-bottom: 10%;
+}
+.not_worried{
+	width:100%;
+	height: 400px;
+	/*border: solid 1px #0000FF;*/
+	overflow: hidden;
+}
+.span1{
+	display: block;
+	width: 13%;
+	font-size: 40px;
+	text-align: center;
+	border-bottom: solid 2px #0082D6;
+	margin-left: 45%;
+	margin-top: 5%;
+	color: #555;
+	/*border: solid 1px #0000FF;*/
+	/*line-height: 50px;*/
+}
+.not_worrieditems{
+	float: left;
+	margin-top: 4%;
+	margin-left: 6%;
+	width: 15%;
+	
+	/*height: 200px;
+	border: solid 1px red;*/
+}
+
+.p1{
+	font-size: 24px;
+	text-align: center;
+	color: #555;
+	margin-top: 30px;
+	background-color:white;
+}
+.p2{
+	font-size: 16px;
+	text-align: center;
+	color: #777;
+	margin-top: 5px;
+	background-color: white;
+}
+/*产品多样*/
+.product{
+	width: 100%;
+	height: 600px;
+	background:#f2f5f7;
+	overflow: hidden;
+	margin-top: 3%;
+}
+.span1_1{
+	display: block;
+	width: 13%;
+	font-size: 40px;
+	text-align: center;
+	border-bottom: solid 2px #0082D6;
+	margin-left:45%;
+	color: #555;
+}
+/*随心贷*/
+.onlinesui{
+	height: 450px;
+	width: 340px;
+	margin-left: 175px;
+	margin-top: 50px;
+	float: left;
+}
+.onlinesui img,.onlinegong img,.onlinexue img{width: 100%;}
+/*.font{
+	font-size: 36px;
+	text-align: center;
+	padding-top: 15px;
+	color: white;	
+}*/
+.onlinesui:hover,.onlinegong:hover,.onlinexue:hover{
+	box-shadow: 0px 0px 5px #c9c9c9;
+}
+.onlinesui,.onlinegong,.onlinexue{background-color: white;}
+.lr{
+	height: 100px;
+	width:300px ;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 60px;
+	border-bottom: solid 1px #c9c9c9;
+}
+.text_left{
+	height: 80px;
+	width: 120px;
+	float: left;
+}
+.text_right{
+	height: 80px;
+	width: 120px;
+	float: left;
+	margin-left: 55px;
+}
+.onlinefoot{
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 50px;
+	width: 100px;
+	float: left;
+}
+.p3{
+	font-size: 18px;
+	color: #555;
+}
+.span2{
+	font-size: 14px;
+	color: #555;
+}
+/*工薪贷*/
+.onlinegong{
+	height: 450px;
+	width: 340px;
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+.onlinexue{
+	height: 450px;
+	width: 340px;
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+/*信用借款,仅需4步*/
+.step{
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	/*margin-bottom: 50%;*/
+}
+.span1_2{
+	display: block;
+	width: 24%;
+	font-size: 40px;
+	border-bottom: solid 2px #0082D6;
+	margin-left: 520px;
+	margin-right: 500px;
+	color: #555;
+	padding-left: 10px;
+}
+.first{
+	margin-left: 13%;
+	margin-top: 50px;
+	float: left;
+	background: url(../img/Setbg.png)no-repeat;
+	background-position: center;
+	width: 135px;
+    height: 120px;
+}
+/*.first,.second,.third,.fourth{margin-left: 5%;}*/
+.second{
+	background: url(../img/Setbg.png)no-repeat;
+	background-position: center;
+	width: 135px;
+    height: 120px;
+	/*margin-left: 5%;*/
+	margin-top: 50px;
+	float: left;
+}
+.third{
+	background: url(../img/Setbg.png)no-repeat;
+	background-position: center;
+	width: 135px;
+    height: 120px;
+/*	margin-left:5%;*/
+	margin-top: 50px;
+	float: left;
+}
+.fourth{
+	background: url(../img/Setbg.png)no-repeat;
+	background-position: center;
+	width: 135px;
+    height: 120px;
+	/*margin-left: 5%;*/
+	margin-top: 50px;
+	float: left;
+}
+.jian{
+	background: url(../img/jt.png)no-repeat;
+	background-position: center;
+	height: 31px;
+    width: 20px;
+    margin: 100px 5.5% 0 5.5%;
+    float: left;
+}
+.ot{
+	height: 150px;
+	width: 150px;
+}
+/*.img{
+	position: absolute;
+	opacity: 0.5;
+    transition: opacity 0.25s ease-in-out 0s;
+}*/
+.one{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin-left: -15px;	
+	margin-top: 10px;
+}
+.two{
+	font-size:20px;
+	text-align: center;
+	color: white;
+	margin-left: -10px;
+	margin-top: 5px;
+}
+.three{
+	display: block;
+	width: 100%;
+	line-height: 20px;
+	color: #888;
+	margin-left:8px;
+    margin-top: -20px;
+}
+/*.jian{
+	width: 5%;
+	margin-top: 7%;
+}
+.jian img{width: 100%;}*/

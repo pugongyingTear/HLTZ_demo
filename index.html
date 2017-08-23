@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>红岭创投_值得信赖的P2P网贷平台_P2P个人理财平台</title>
+		<link rel="shortcut icon" href="img/logo.ico"/>
+		<meta name="keywords" content="红岭创投,P2P理财,P2P网贷,个人理财,网贷平台">
+		<meta name="description" content="红岭创投成立于2009年3月，是中国领先的P2P网贷平台，是P2P网贷行业的领跑者。红岭创投以稳健的风控和专业的团队，为投资者提供预期年化收益8%-12%的P2P理财服务。已经为100多万注册用户提供了P2P网贷、P2P理财、个人理财等服务项目。">
+		<link href="css/hltz.css" type="text/css" rel="stylesheet"/>
+		<style>
+			/*.active是轮播器中的按钮亮起的样式*/
+			.active{
+				background-color:rgb(32,143,246);
+				color:#FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<!--Min:冻结导航条开始（相对于body定位）-->
+		 <div class="fixedhead">
+			<ul class="fixedmenu">
+			  <li style="margin-left: 0;"><a class="item1" href="index.html">红岭首页</a></li>
+			  <li><a class="item" href="">我要投资</a></li>
+			  <li><a class="item" href="loan.html">我要借款</a></li>
+			  <li><a class="item" href="我要乐购.html">我要乐购</a></li>
+			  <li ><a class="item" href="register.html">免费注册 </a></li>
+			  <li><a class="item" href="">信息披露</a></li>
+			  <li><a class="item" href="">红岭社区</a></li>
+			</ul>
+		</div><!--Min:冻结导航条结束-->
+		
+		<!--Min:“快捷操作”的下拉列表开始（相对于body定位）-->
+		<div class="dropdown-menu">
+			<li><a href="">利息计算器</a></li>
+			<li><a href="">借款计算器</a></li>
+		</div><!--Min:“快捷操作”的下拉列表结束-->
+		
+		<!--Min:导航条的用户名显示开始，获取cookie保存的用户名显示出来（相对于body定位）-->
+		<div class="user">
+			<span class="user-img"></span>
+			<input id="user"></input>
+		</div><!--Min:导航条的用户名显示结束-->
+
+<!------------------------------------分割线------------------------------------------------------------>
+
+		<!--container是头部最外层盒子（相对于body定位）-->
+		<div class="container">
+			<!--头部包含logo、nav1、nav2三部分-->
+		    <div class="header">
+		        <!--利用图片整合技术处理logo，图片用作背景图-->
+		        <div class="logo"></div>
+		        <!--导航条的第一部分nav1-->
+			    <div class="nav1">
+			        <ul class="menu1">
+			        	<li>
+			        		<a class="item" href="">
+			        			<strong class="strong">本标<b>●</b>金融超市</strong>
+			        			<img class="img-shop" src="img/shop.png">&nbsp;&nbsp;
+			        		</a>
+			        	</li>
+			        	<li>
+			        		<a class="item" href="">|&nbsp;&nbsp;手机App&nbsp;&nbsp;</a>
+			        	</li>
+			        	<li>
+			        		<a class="item" href="">|&nbsp;&nbsp;新人指南&nbsp;&nbsp;|</a>
+			        	</li>
+			        	<li class="dropbtn">
+			        		<div class="quickdo">&nbsp;&nbsp;快捷操作&nbsp;<b class="b"></b></div>
+			        	</li> 
+			        	<li>
+			        		<a class="item" href="login.html" style="margin-left: -2px;">|&nbsp;&nbsp;会员登录</a>
+			        	</li>
+			        </ul>
+			    </div> <!--nav1结束--> 
+			        
+			    <!--nav2开始--> 
+			    <div class="nav2">
+			        <ul class="menu2">
+			        	<li><a class="item1" href="index.html">红岭首页</a></li>
+			        	<li><a class="item" href="">我要投资</a></li>
+			        	<li><a class="item" href="loan.html">我要借款</a></li>
+			        	<li><a class="item" href="">我要乐购</a></li>
+			        	<div class="register">
+			        		<li ><a id="item2" href="register.html">免费注册 </a></li>
+			        	</div>
+			        	<li class="hr"></li>
+			        	<li><a class="item" href="">信息披露</a></li>
+			        	<li><a class="item" href="">红岭社区</a></li>
+			        </ul>
+			    </div><!--nav2结束-->   
+		    </div><!--header结束--> 
+		</div><!--contianer结束-->
+<!------------------------------------分割线------------------------------------------------------------>
+
+		<!--Min:这里是轮播器的内容，用jq写的-->
+		<div class="lunbo">
+			<!--Min:轮播的图片-->
+			<div class="lunbo-pic">
+				<a href="index.html" class="lunbo-a"><img class="img" src="img/lcgj.png" alt=""></a>
+			</div>
+			<!--Min:轮播器的五个按钮-->
+			<div class="index">
+				<em class="index-em active" >1</em>
+				<em class="index-em">2</em>
+				<em class="index-em">3</em>
+				<em class="index-em">4</em>
+				<em class="index-em">5</em>
+			</div>
+		</div><!--Min:轮播结束-->
+		
+		
+		<!--Min:这里是首页中间部分的内容-->
+		<div class="content">
+			<!--智慧的投资人加入红岭-->
+			<div class="touziitems">
+				<p>133<b>万</b>5386<b>个</b></p>
+				<h4>智慧的投资人加入红岭</h4>
+			</div>
+				
+			<!--累计成功投资金额-->
+			<div class="touziitems">
+				<p><b>￥</b>2096<b>亿</b>9415<b>万</b></p>
+				<h4>累计成功投资金额</h4>
+			</div>
+				
+			<!--投资人已赚取收益-->
+			<div class="touziitems">
+				<p><b>￥</b>52<b>亿</b>2585<b>万</b></p>
+				<h4>投资人已赚取收益</h4>
+			</div>
+				
+			<!--投资人预期收益-->
+			<div class="touziitems">
+				<p><b>￥</b>13<b>亿</b>8318<b>万</b></p>
+				<h4>投资人预期收益</h4>
+			</div>
+				
+			<a href="#" target="_blank" class="touziitems-more">查看更多</a>
+				
+<!------------------------------------分割线------------------------------------------------------------>				
+				
+					
+			<!--Min:红岭指数、红岭创投、综合、其他理财.exponent:指数的意思,这里使用弹性盒子-->
+			<div class="flex-exponent">
+                <span class="flexitems">红岭指数&nbsp;&nbsp;2016-12-30</span>
+                <span class="flexitems">红岭创投&nbsp;&nbsp;<b>10.67% ↑</b></span>
+                <span class="flexitems">P2P综合&nbsp;&nbsp;<b>7.61% ↑</b></span>
+                <span class="flexitems">其他理财&nbsp;&nbsp;<b>6.95% ↑</b></span>
+                <a href="#">&gt;&gt;</a>
+            </div>
+            	
+<!------------------------------------分割线------------------------------------------------------------>	            	
+            	         		
+            <!--Min:投资导航-->
+            <div class="guide">
+            	<a href="index.html"><img src="img/date_1.png"/></a>
+            	<a href="index.html">安全</a>
+            	<h4>风险准备金保驾护航</h4>
+            	<h4>5道风控审核收益安心有保障</h4>
+            </div>
+            	
+            <div class="guide">
+            	<a href="index.html"><img src="img/date_2.png"/></a>
+            	<a href="index.html">惠普</a>
+            	<h4>投资门槛仅50元</h4>
+            	<h4>预期年化收益8%-12%</h4>	
+            </div>
+            	
+            <div class="guide">
+            	<a href="index.html"><img src="img/date_3.png"/></a>
+            	<a href="index.html">开灵</a>
+            	<h4>多种借款期限（1天至30个月）</h4>
+            	<h4>多种还款方式及债权转让功能</h4>
+            </div>
+            	
+<!------------------------------------分割线------------------------------------------------------------>
+
+			<!--Min:成功的投资列表-->
+			<table width="100%" class="grid">
+				<tr>
+  					<td style="width: 101%; height:30px; border-bottom: solid rgba(208,208,208,1);border-width: 1px; margin-left:-2px ;text-align: left;">
+  						<span>成功的投资列表&nbsp;|&nbsp;</span><b class="b-blue">现在去投资</b>理财有风险，投资需谨慎
+  						<a href="index.html" class="grid-more">更多&gt;&gt;</a>
+  					</td>
+				</tr>
+				<tr>
+  					<td style="text-align: left;padding-top: 15px;">借款人/借款项目</td>
+  					<td style="padding-top: 15px;">利率 </td>
+  					<td style="padding-top: 15px;">借款金额</td>
+  					<td style="padding-top: 15px;">期限/还款方式</td>
+				</tr>
+			</table>
+<!------------------------------------分割线------------------------------------------------------------>
+
+			<!--Min:最新公告-->
+			<div class="newnote">
+				<a href="index.html" style="font-size: 16px; font-weight: bold;margin-bottom: 10px;">最新公告<a>
+				<ul>
+					<li><a href="index.html">关于“承销标”产品上线的公告</a></li>
+					<li><a href="index.html">关于陕西9号特标项目的融资公告</a></li>
+					<li><a href="index.html">关于苏州3号特标项目的融资公告</a></li>
+					<li><a href="index.html">关于四川1号议标项目的融资公告</a></li>
+				</ul>
+			</div>
+				
+			<!--Min:红岭动态-->
+			<div class="newnote" style="width: 55%;">
+				<a href="index.html" style="font-size: 16px; font-weight: bold;margin-bottom: 20px;">红岭动态<a>
+				<a href="index.html" class="hldt-a"></a>
+				<ul>
+					<li><a href="index.html">周世平出席《英才》第十六届中国年度管理大会</a></li>
+					<li><a href="index.html">周世平出席《英才》第十六届中国年度管理大会</a></li>
+					<li><a href="index.html">红岭创投周世平入选深港十大创新金融人物 香港特首...</a></li>
+					<li><a href="index.html">相约金秋深圳金博会，畅享红岭金融新理财</a></li>
+				</ul>
+			</div>
+				
+			<!--Min:行业资讯-->
+			<div class="newnote">
+				<a href="index.html" style="font-size: 16px; font-weight: bold;margin-bottom: 10px;">行业资讯<a>
+				<ul>
+					<li><a href="index.html">专项整治工作开启，互金行业改善明显</a></li>
+					<li><a href="index.html">盘点2016新金融的五大现象：中国企业走出国门</a></li>
+					<li><a href="index.html">合规转型当道的2017，各大网贷平台转型前瞻</a></li>
+					<li><a href="index.html">两部委开绿色通道，PPP资产证券化发展迎新机遇</a></li>
+				</ul>
+			</div>
+
+			<!--Min:红岭故事-->
+			<div class="newnote" style="width: 55%;">
+				<a href="index.html" style="font-size: 16px; font-weight: bold;margin-bottom: 20px;">红岭故事<a>
+				<a href="index.html" class="hlgs-a"></a>
+				<ul>
+					<li><a href="index.html">【红岭微信服务号】你的贴心理财小管家已上线！</a></li>
+					<li><a href="index.html">【水墨红岭，百态江湖】—红岭新年台历大派送</a></li>
+					<li><a href="index.html">2016下半年个人投资小结</a></li>
+					<li><a href="index.html">来红岭一年多的几点投资体会</a></li>
+				</ul>
+			</div>		
+		</div><!--Min:content结束-->
+		
+		<!--脚部-->  
+		 <div class="foot">
+		    <div class="footer">
+		        <div class="footer1">
+		        	<!--联系我们-->
+		        	<div class="con_us">        
+		        		<ul>
+		        			<li>
+		        				<strong style="color: #777;">联络我们（09:00 - 22:00）</strong>
+		        			</li>
+		        			<li class="call">4000-016-089</li>
+		        			<li class="onlinechat" >
+		        				<span class="onchat">在线客服</span>
+		        				<a href=""><em></em></a>
+		        				<a class="qqchat onchat"></a>
+		        			</li>	
+		        		</ul>	
+		        	</div><!--con_us结束-->
+		        		
+		        	<!--关注我们-->
+		        	<div class="focus_us">
+		        		<ul>
+		        			<li>
+		        				<strong style="display:block; color: #777;">关注我们</strong>
+		        				<img class="focus" src="img/focus.png" />	
+		        			</li>
+		        		</ul>	
+		        	</div><!--focus_us结束-->
+		        		
+		        	<div class="fltfir">
+		        		<!--脚部链接-->
+		        		<div class="footer_links">
+		        			<ul class="flinks">
+		        				<li>
+		        					<a href=""><b>信息披露</b>&nbsp;&nbsp;&nbsp;|</a>
+		        				</li>
+		        				<li>
+		        					<a href="" ><b>联系我们</b>&nbsp;&nbsp;&nbsp;|</a>
+		        				</li>
+		        				<li>
+		        					<a href="" ><b>诚征英才</b>&nbsp;&nbsp;&nbsp;|</a>
+		        				</li>
+		        				<li>
+		        					<a href="" ><b>媒体报道</b>&nbsp;&nbsp;&nbsp;|</a>
+		        				</li>
+		        				<li>
+		        					<a href="" ><b>新人指南</b>&nbsp;&nbsp;&nbsp;|</a>
+		        				</li>
+		        				<li>
+		        					<a href="" ><b>网站地图</b></a>
+		        				</li>
+		        			</ul>
+		        		</div><!--footer_links结束-->
+		        		
+		        		<!--团队合作-->
+		        		<div class="teams" >
+		        			<b class="teams1">战略合作伙伴</b>
+		        			<b class="teams1">合作伙伴</b>
+		        			<b class="teams1" style="text-align: right;width: 28%;">法律顾问单位</b>
+		        		</div><!--teams结束-->
+		        		
+		        		<!--图片，利用图片整合技术以及ps切图-->
+		        		<div class="icon">	
+		        			<!--图片整合技术-->
+		        			<div class="firm"></div>
+		        			<!--PS切图-->
+		        			<div class="dc">
+		        				<img src="img/dacheng.png" />
+		        			</div>
+		        		</div><!--icon结束-->
+		        	</div><!--fltfir结束-->	
+		       	</div><!--footer1结束-->
+		       	
+		        <!--脚部的第二部分-->
+		       	<div class="footer2">
+		        	<strong style="margin-right: 15px;color: #777;">友情链接</strong>
+		        	<a class="targe" href="">可信资本</a>
+		        	<a class="targe" href="">投资宝</a>
+		        	<a class="targe" href="">理财社区</a>
+		        	<a class="targe" href="">P2P理财</a>
+		        	<a class="targe" href="">和讯互联网金融</a>
+		        	<a class="targe" href="">随手记</a>
+		        	<a class="targe" href="">众筹之家</a>
+		        	<a class="targe" href="">网贷东方</a>
+		        	<a class="targe" href="">票据宝</a>
+		        </div><!--footer2结束-->
+		        	
+		        <!--脚部的第三部分-->
+		        <div class="footer3">
+		        	<p>
+		        		<span>© 2009-2016 红岭创投 All rights reserved</span>|
+		        		<span>红岭创投电子商务股份有限公司</span>|
+		        		<span>粤ICP备10234900号</span>|
+		        		<span><a class="zzdx" href="">增值电信业务经营许可证粤B2-20130472</a></span>
+		        	</p>
+		        </div><!--footer3结束-->
+		        	
+		        <!--脚部的第四部分都是图片，利用图片整合技术-->
+		        <div class="img" style="margin-left: 160px;">
+		        	<div class="img1"></div>
+		        	<div class="img2"></div>
+		        	<div class="img3"></div>
+		        	<div class="img4"></div>
+		        	<div class="img5"></div>
+		        </div><!--img结束-->
+		    </div><!--footer结束-->
+	    </div> <!--foot脚部结束--> 
+	</body>
+<script src="js/jquery-1.4.2.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script>
+	//1.设置一个定时器让图片轮流播放
+	//2.当图片展现时，对应的按钮也会亮起，而前一个亮起的按钮暗下
+	//3.当点击按钮时，即展现对应的图片且按钮亮起，而前一个亮起的按钮暗下
+	$(function(){
+			var i=0;
+			var arr=['lcgj','ghl','pygl','xsrw','cx'];
+			var a=['index','index','index','index','index'];
+			var time;
+			
+			//1.设置定时器，让图片轮流播放，本项目使用5张图片
+			setInterval(function(){
+				//如果播放完最后一张图片时，设置i=0，让图片重头播放
+				if(i>arr.length-1){
+					i=0;
+				}else{
+					
+					//如果还没播放完最后一张，就把当前的图片展现出来。attr()方法返回被选元素的属性值。
+//					$("img").animate({
+//  						transition:all .5s ease-in 0; 
+//					}, 500)
+//					$("img").fadeIn();
+					$('.img').attr('src','img/'+arr[i]+'.png')
+					//给当前显示的图片赋予链接
+					$('.lunbo-a').attr('href',a[i]+'.html')
+					
+					//2.按钮亮起暗下设置
+					//如果i=0，则说明当前是第一张图片，应将第一个按钮亮起，最后一个按钮暗下
+					if(i==0){
+						$("em:eq(4)").removeClass("active")
+						$("em:eq(0)").addClass("active")
+					}
+					
+					//如果i=1，则说明当前是第二张图片，应将第二个按钮亮起，第一个按钮暗下		
+					if(i==1){
+						$("em:eq(0)").removeClass("active")
+						$("em:eq(1)").addClass("active")
+					}
+					
+					//如果i=2，则说明当前是第三张图片，应将第三个按钮亮起，第二个按钮暗下
+					if(i==2){
+						$("em:eq(1)").removeClass("active")
+						$("em:eq(2)").addClass("active")
+					}
+					
+					//如果i=3，则说明当前是第四张图片，应将第四个按钮亮起，第三个按钮暗下
+					if(i==3){
+						$("em:eq(2)").removeClass("active")
+						$("em:eq(3)").addClass("active")
+					}
+					
+					//如果i=4，则说明当前是最后一张图片，应将第五个按钮亮起，第四个按钮暗下
+					if(i==4){
+						$("em:eq(3)").removeClass("active")
+						$("em:eq(4)").addClass("active")
+					}
+					
+					//每播放一张图片就将i加1，让其播放下一张
+					i++;				
+				}	
+			},1000)//定时器设置图片播放延时为2s
+			
+			//3.点击按钮展现图片事件
+			$(".index em").click(function(){
+				
+				//当随机点击了一个按钮，则把之前亮起的按钮暗下，这里用设置所有按钮暗下再亮起当前按钮的方法将之前亮起的按钮暗下
+				$("em").removeClass("active")
+				
+				//为当前点击的按钮添加一个具有背景色为蓝色样式的类，让其亮起，表示当前展示的是该按钮对应的图片
+				$(this).addClass("active");
+				
+				//index()方法是获取当前元素的位置，位置索引也是从0开始的。把当前点击的按钮的位置赋给i，让定时器从当前位置开始播放图片
+				i=$(this).index()
+				
+				//当随机点击按钮时，即时展示对应的图片，而不用等定时器响应延时2s才执行
+				$('.img').attr('src','img/'+arr[i]+'.png')	
+			})
+			
+			
+			//这里设置头部导航条中“快捷操作”的下拉效果
+			$(".dropbtn").mouseover(function(){
+				//当鼠标移上“快捷操作”时，给.dropbtn添加样式.dropbtnhover，改变背景色和边框
+				$(".dropbtn").addClass('dropbtnhover')
+				//当鼠标移上“快捷操作”时，给.dropbtn b添加样式bhover，给小三角形设置180度旋转并且让小三角形的左右下三边构成的底色成白色
+				$(".dropbtn b").addClass('bhover')
+				//这里需要移除小三角形原来的样式，因为原来的小三角形的左右下三边构成的底色是灰色的，不移除就应用不了新添的三边白色
+				$(".b").removeClass('b')
+				$(".dropdown-menu").show();	
+				
+			})			
+			$('.dropbtn').mouseleave(function(){
+				
+			 	$(".dropbtn").removeClass('dropbtnhover')
+				$(".dropbtn b").removeClass('bhover')
+				$(".dropbtn b").addClass('b')
+			 	$(".dropdown-menu").hide();	
+			 	
+			})
+			$(".dropdown-menu").mouseover(function(){
+				
+				$(".dropdown-menu").show()
+				$(".dropbtn").addClass('dropbtnhover')
+				$(".dropbtn b").addClass('bhover-norotate')
+				$(".b").removeClass('b')
+			})
+			$('.dropdown-menu').mouseleave(function(){
+				//当鼠标移开下拉面板时，所有改变了样式的元素恢复原有的样式
+			 	$(".dropbtn").removeClass('dropbtnhover')
+				$(".dropbtn b").removeClass('bhover-norotate')
+				$(".dropbtn b").addClass('b')
+				$(".dropdown-menu").css("display", "none")			 	
+			})
+			
+			//如果会员登陆了显示该会员名称
+			if($.cookie("checked")=="true")
+			{
+				$("#user").val($.cookie("username"))
+				$(".user").show();
+			}
+			
+			//获取滚动距离，当滚动了500px时出现冻结导航条,用了滚动距离技术
+			$(window).scroll(function () {
+				if($(window).scrollTop()>500)
+				{
+//					alert($(window).scrollTop());
+					$(".fixedhead").show();
+				}else{
+					$(".fixedhead").hide();
+				}
+				
+				
+			})			
+	})
+</script>
+<script>
+	$(document).ready(function(){
+		getData();
+				
+		function getData(type){
+			$.ajax({
+			    type: 'GET',
+			    url:'js/ajax.json',
+			    dataType: 'json',
+			    success: function(data){
+					var htme=htmll(data);
+					console.log(data);
+					$('.grid').append(htme);
+			    },
+			    error: function(xhr, type){
+			        alert('Ajax error!')
+			    }
+			})
+		}
+		function htmll(data){
+			var html='';
+			for(i in data){
+				html=html+'<tr><td style="text-align: left;"><a href="index.html" class="jian">'
+					+data[i].pepole+'</a></td>'
+					+'<td><b class="b-font">'+data[i].ratef+'</b>'+data[i].rateb+'</td>'
+					+'<td><b class="b-font">'+data[i].money+'</b></td>'
+					+'<td><b class="b-font">'+data[i].datef+'</b>'+data[i].dateb+'</td>'
+					+'</tr>'
+			}
+			return html;
+		}
+	})
+</script>
+</html>

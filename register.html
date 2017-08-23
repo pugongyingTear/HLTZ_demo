@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>会员注册_红岭创投</title>
+		<link rel="shortcut icon" href="img/logo.ico"/>
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<!--弹出提示框-->
+		<div class="supportemailbox" id="username-2" style="width: 290px;margin-top: 250px; "><span style="width:260px;padding-left: 20px;line-height: 30px;">5-16位字符，可用中英文、数字、下划线</span></div>
+		<div class="supportemailbox" id="password-2" style="width: 290px; margin-top: 305px;"><span style="width:260px;padding-left: 20px;line-height: 30px;">6-16位字母/数字/下划线两种以上组合</span></div>
+		<div class="supportemailbox" id="surepassword-2" style="width: 290px; "><span style="width:260px;padding-left: 20px;line-height: 30px;">两次输入密码不一致</span></div>
+		<div class="registerok"><a  href="login.html"><input type="text" value=" " id="registerok"></input></a></div>	
+		<!--头部-->
+		<div class="header">
+			<div class="header_1">
+				<a href="index.html"><div class="register"></div></a>	
+			</div>
+		</div>
+		
+		<!--content部分，登录方框-->
+		<div class="content-register">
+			<div class="login_1" style="height:527px;">  <!--中间圆角框 -->
+					<div class="dl_2" >
+						<form id="register">
+							<table cellpadding="0" cellspacing="0" style="width:620px;">
+								<tbody>
+									<tr>
+										<td align="right">
+											<font>*</font>用户名：
+										</td>
+										<td>
+											<input type="text" name="username" id="username" class="text_1" placeholder="用户名一旦注册不可修改"/>
+											<!--<span class="supportemail" id="username-1" style="width: 220px;margin-top: -135px;margin-left: -180px;">5-16位字符，可用中英文、数字、下划线</span>-->
+											
+										</td>
+									</tr>
+									<tr>
+										<td align="right">
+											<font>*</font>密码：
+										</td>
+										<td>
+											<input type="text" name="password" id="password" class="text_1" placeholder="请输入登录密码"/>
+											<!--<span class="supportemail" id="password-1" style="width: 220px;margin-top: -135px;margin-left: -180px;">6-16位字母/数字/下划线两种以上组合</span>-->
+											
+										</td>
+									</tr>
+									<tr>
+										<td align="right">
+											<font>*</font>确认密码：
+										</td>
+										<td>
+											<input type="text" name="surepassword" id="surepassword" class="text_1" placeholder="请再次输入登录密码"/>
+											<!--<span class="supportemail" id="surepassword-1" style="margin-top: -135px;margin-left: -180px;">两次输入密码不一致</span>-->
+											
+										</td>
+									</tr>
+									<tr>
+										<td align="right">
+											推荐人/推广码：
+										</td>
+										<td>
+											<input type="text" value="360专享" class="text"/>
+										</td>
+									</tr>
+									<!--<tr>
+										<td align="right">
+											<font>*</font>验证码：
+										</td>
+										<td>
+											<input type="text" placeholder="请输入验证码 " class="text_1"><input type="text"  class="text_2 text_22">
+										</td>
+									</tr>-->
+									<tr>
+										<td>&nbsp;</td>
+										<td>
+											<input type="checkbox" class="checkbox" onclick="a()" value="checkbox" id="3" checked="checked"/>
+											我已经阅读并同意<a href="#">《用户服务协议》</a>&nbsp;<a href="#">《会员服务规则》</a>
+										</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td>
+											<input type="button" value="立即注册" class="button_2" />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							
+						</form>
+					</div>	
+				<div class="zc" >
+					<h5>
+						已有账号，<a href="login.html">马上登录</a>
+					</h5>
+				</div>
+			</div>
+		</div>
+	 <div class="footer">
+	  	<p>
+   			<span>&copy;2009-2016 红岭创投 All rights reserved</span>
+   				|
+   			<span>红岭创投电子商务股份有限公司</span>	
+   			<span>粤ICP备10234900号</span>
+   		</p>
+	  </div>
+	</body>
+<script src="js/jquery-1.4.2.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script type="text/javascript">
+		function a(){
+			if(document.getElementById("3").checked==true){ //如果id为3的那个复选框的属性为true，也就是打上勾
+				document.getElementById("1").style.display="";   //那么，设置id为1的隐藏属性为“显示
+				document.getElementById("2").style.display="none";	  //那么，设置id为2的隐藏属性为“隐藏”
+
+			}
+			else{
+				document.getElementById("1").style.display="none";   //那么，设置id为1的隐藏属性为“隐藏"
+				document.getElementById("2").style.display="";	  //那么，设置id为2的隐藏属性为“显示”
+			}
+		}
+</script>
+		
+<script type="text/javascript">
+		$(function(){
+			
+			$("#username").focus(function(){
+				$("#username-2").show();
+				$(this).attr('placeholder','')
+				$(this).css("color","black")
+			})
+			
+			$("#password").focus(function(){
+				$("#password-2").show();
+				$(this).attr('placeholder','')
+				$(this).css("color","black")
+			})
+			
+			$("#surepassword").focus(function(){
+				$(this).attr('placeholder','');
+				$(this).css("color","black")
+				//如果两次输入的密码不一致就弹出提示
+				if($("#password").val()!=$("#surepassword").val())
+				{
+					$("#surepassword-2").show();
+				}		
+			})
+			
+			$("#username").blur(function(){
+				$("#username-2").hide();
+			})
+			
+			$("#surepassword").blur(function(){
+				$("#surepassword-2").hide();	
+			})
+			
+			$("#password").blur(function(){
+				$("#password-2").hide();	
+			})	
+
+		})
+</script>
+<script>
+	$(function(){
+			
+		$("#register").click(function(){ 
+			//设置Cookie的username的值 等于用户名，保存该用户名
+			$.cookie("username",$("#username").val(),{ 
+				expires:7,//设置保存期限 
+				path:"/"//设置保存的路径
+			}); 
+			//设置Cookie的password的值 等于用户密码，保存该用户密码
+			$.cookie("password",$("#surepassword").val(),{ 
+				expires:7,//设置保存期限 
+				path:"/"//设置保存的路径
+			}); 
+			$("#registerok").val("注册成功，请登录！");
+//		return false; 
+		}) 
+	})
+	
+</script>
+</html>

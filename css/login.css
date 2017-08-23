@@ -1,0 +1,263 @@
+html, body, ul, li, ol, dl, dd, dt, p,a, h1, h2, h3, h4, h5, h6, form, fieldset, legend,span, img,input {
+	border:0; margin:0; padding:0;
+}
+body{color: #555;font: 14px "Microsoft Yahei", sans-serif，arial, "Hiragino Sans GB";}
+.header{
+	width:100%;
+	height:50px;
+	background-color:#f5f5f5;  /*用ps吸管来获得整合的图片的背景颜色是#f5f5f5s,因此设置header背景颜色为#aeaea,可以将红岭创头融入header上*/
+	border-bottom:#DCDCDC 2px solid;
+	padding:35px 0;
+}
+.header_1{
+	width:1000px;
+	height:70px; 
+	margin:0 auto;
+}
+.login{
+	width: 280px;
+	height: 40px;
+	background:url(../img/small_head_bg.png) no-repeat left -41px;
+	
+	padding-top:17px;
+}
+.register{
+	width: 280px;
+	height: 40px;
+	background:url(../img/small_head_bg.png) no-repeat left 8px;	
+	padding-top:17px;
+}
+
+.zc{
+	float: left;
+	background:url(../img/register.jpg) no-repeat 2px top;
+	width: 310px;
+    height: 625px;
+}
+h5{
+	text-align: center;
+	margin-top:15px;
+	font-size:18px;
+	height:40px;
+	line-height:40px;
+	font-weight: normal;
+}
+.dl{
+	font-family:"楷体";
+	font-size:35px;
+	line-height:50px;
+}
+.dl_1{
+	float: left;
+	padding:30px 40px;
+	width:43%;
+	height: 100%;
+}
+.dl_2{
+	float: left;
+	padding:30px 40px;
+	width:605px;
+	height:400px;
+}
+.content-login{
+	background:#ffffff;
+	width:100%;
+	height:500px;
+}
+.content-register{
+	background:#ffffff;
+	position: relative;
+	width:100%;
+	height:620px;
+	margin: 0 auto;
+	
+}
+.login_1{
+	overflow: hidden;
+	max-width:1000px;
+	min-width: 500px;
+	height:360px;
+	margin:0 auto;
+	border-radius:10px;
+	box-shadow: 2px 2px 5px #dcdcdc;
+	border:#DCDCDC 3px solid;
+	margin-top:90px;
+	margin-bottom:90px;
+}
+
+
+/*table tr td{
+	
+	padding:5px 0;
+	height:40px;
+}*/
+select {
+    border: 1px solid #dcdcdc;
+    font: 16px/32px "Microsoft Yahei",sans-serif,arial,"Hiragino Sans GB";  
+    height: 35px;
+    vertical-align: middle;/* vertical-align 属性设置元素的垂直排列。*/
+   width:125px;
+}
+/*font:bold 14px/40px "宋体";
+相当于
+font-weight:bold;font-size:14px;line-height:40px;font-family:"宋体"*/
+
+.footer{
+	background-color:#f1f1f1;
+	height:50px;
+	width:100%;
+	text-align:center;
+	padding-top:20px;
+}
+a{
+	color:#0000ff;
+	text-decoration: none;
+}
+.text{
+	height:35px; 
+	width:180px;
+	border: 1px solid #dcdcdc;	
+						
+}
+.text_0{
+	height:35px; 
+	width:120px;
+	border: 1px solid #0082D6;	
+}
+.text_1{
+	height:35px; 
+	width:220px;
+	border: 1px solid #dcdcdc;	
+	color:#dcdcdc;
+}
+.text_2{
+	height:35px; 
+	width:100px;
+	border: 1px solid #dcdcdc;	
+	color:#0082D6;
+}
+.text_22{
+	background:url(../img/code.jpg) no-repeat left; 
+}
+.button{
+	height:35px;
+	width:84px;
+	border-radius:5px; 
+	background-color:#0082d6;
+	color: white;
+	font-size:19px ;
+	text-align: center;
+	margin-top:36px;
+}
+.button_1{
+	height:40px;
+	
+	border-radius:5px; 
+	background-color:#0082d6;
+	color: white;
+	font-size:19px ;
+	
+}
+.button_2{
+	height:40px;
+	width: 220px;
+	border-radius:5px; 
+	background-color:#0082d6;
+	color: white;
+	font-size:19px ;
+}
+.checkbox{
+	width:15px; 
+	height: 15px;
+	margin-top:44px;
+}
+
+table{
+	position: relative;
+	float: left;
+	margin-left:-20px ;
+	width:600px;
+	line-height:50px;
+}
+/*tr{
+	line-height:56px;
+}
+td{
+	line-height:50px;
+}*/
+.right{
+	float: left;
+	width:464px; 
+	height:251px;
+	margin: 45px 5px 0 0;
+	background:url(../img/login.jpg);
+}
+
+.right_1{
+	width:464px; 
+	height:251px;
+	margin: -1px -152px 0 0;
+}
+font{
+	color:red;
+	size:+1;
+}
+
+/*.tc{
+	position:absolute;
+	margin-left:332.22px;
+	width:220px;
+	height:80px;*/
+}
+.tc input:before { /* left arrow */
+	content: '';
+	position: absolute;
+	border-width: 8px 8px 8px 0px;
+	border-style: solid solid solid none;
+	border-color: transparent rgb(145,59,26) transparent;
+	margin-top:3%;
+	left: -6px;
+	float:left;
+}
+
+/*Min：supportemail CSS*/
+.supportemailbox{
+	display: none;
+	position: absolute;
+	float: right;
+	width: 200px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 355px;
+	margin-left: 560px;
+	background: url(../img/vuibg.png) no-repeat left top;
+	z-index: 19;
+}
+.supportemailbox span{
+	display: block;
+	border:solid #b9e3ff;
+	border-width: 1px;
+	margin-left: 6px;
+	/*padding-left: 6px;*/
+	width:193px;
+	/*background-color:#f3fbff;*/
+	border-left-style:none ;
+	border-top-style:none ;
+	
+}
+/*注册成功后显示提示*/
+.registerok{
+	display: block;
+	position: absolute;
+	margin-top: 540px;
+	margin-left: 560px;
+	width:150px;
+	height: 20px;
+	z-index: 20;	
+}
+/*.registerok a{text-decoration: none;}*/
+.registerok input{
+	font-size: 16px;
+	color:red;
+}
+

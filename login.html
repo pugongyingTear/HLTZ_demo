@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>会员登录_红岭创投</title>
+		<link rel="shortcut icon" href="img/logo.ico"/>
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="header_1">		<!--红岭创头|登录的那一层-->
+				<a href="index.html"><div class="login"></div></a>	<!--应用了图片整合技术width: 280px;height: 40px;	background:url(../img/small_head_bg.png) no-repeat left -41px;-->
+			</div>
+		</div>
+		
+		<!--content部分，登录方框-->
+		
+			<div class="login_1">  <!--中间圆角框-->
+				
+					<div class="dl_1">	<!--左边内容的框架大-->
+						<form>			<!--登录界面是由表单组成的-->
+							<h4 style="margin-left: 50px;margin-bottom: 10px;">
+								<a href="#">会员登录</a>
+								&nbsp;忘记密码？&nbsp;<a href="#">快速找回密码>></a>
+							</h4>
+							<!--表单里又包含一个表格，表格里面又有表单的内容-->
+							<!--单元格边距(表格填充)(cellpadding) -- 代表单元格外面的一个距离,用于隔开单元格与单元格空间
+							单元格间距(表格间距)(cellspacing) -- 代表表格边框与单元格补白的距离,也是单元格补白之间的距离-->
+							<table cellpadding="0" cellspacing="6">	<!--设置表格间距	为了6	-->
+ 								<tbody>
+									<tr>
+										<td align="right">
+											用户名：
+										</td>
+										<td>
+											<!--onmouseover 和 onmouseout 事件可用于在用户的鼠标移至 HTML 元素上方或移出元素时触发函数。-->
+											<input type="text" name="loginusername" id="loginusername" class="text"  />
+									
+										</td>
+									</tr>
+									<tr>
+										<td align="right">
+											密码：
+										</td>
+										<td>
+											<input type="text" name="loginpassword" id="loginpassword" class="text"/>
+										</td>
+									</tr>
+									<tr>
+										<td align="right">
+											记住用户：
+										</td>
+										<td>
+											<select >
+												<option value="1">不登录状态</option>
+												<option value="2">保存30分钟</option>
+												<option value="3">保存1小时</option>
+												<option value="4">保存3小时</option>
+												<option value="5">保存6小时</option>
+												<option value="6">保存1天</option>
+												<option value="7">保存3天</option>
+												<option value="8">保存7天</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td align="left">
+											<input type="button" value="立即登录" id="loginbtn" class="button"/>		<!--  botton设置立即登录的样式-->
+											<b style="font-size: small;">
+												没有账号？<a href="register.html">快速注册</a>
+											</b>
+										</td>
+								</tbody>
+							</table>
+							
+						</form>
+					</div>
+					
+				
+				<div class="right">
+					<!--<img src="img/login.jpg" />-->
+					<!--图片改成背景图放在这里-->
+				</div>
+			</div>
+		
+	 <div class="footer">
+	  	<p>
+   			<span>&copy;2009-2016 红岭创投 All rights reserved</span>
+   				|
+   			<span>红岭创投电子商务股份有限公司</span>	
+   			<span>粤ICP备10234900号</span>
+   		</p>
+	  </div>
+	  
+
+	</body>
+<script src="js/jquery-1.4.2.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+
+<script type="text/javascript">
+		$(function(){
+			//当点击登陆按钮时判断本地是否存储了这个用户和密码，如果都有那就登录成功跳转到主页面
+			$("#loginbtn").click(function(){
+				if(($("#loginusername").val()==$.cookie("username"))&&($("#loginpassword").val()==$.cookie("password")))
+				{
+					$.cookie("checked","true");
+					location.href = "index.html";
+				}else{
+					$.cookie("checked","flase");
+				}
+				
+			})	
+		})
+</script>
+</html>

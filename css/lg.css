@@ -1,0 +1,497 @@
+
+.main-header{
+	width:100%;
+	height:90px;
+	background-color:#ffffff;
+}
+.main-content{
+	width:80%;
+	height:539px;
+	margin: 0 auto;
+	margin-top:40px;
+	background:#f4f5f5;
+}
+.main-header1{
+	width:80%;
+	height:90px;
+	margin:0 auto;
+	
+}
+.item1 {
+    display: block;
+    color: rgb(0, 130, 214);
+    text-decoration: none;
+    margin-top: 0px;
+}
+.item {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    margin-top: 0px;
+}
+#item2 {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2px;
+}
+.main-header2{
+	width:100%;
+	height:400px;
+	background:url(../img1/收益翻一番.jpg) no-repeat left top;
+	overflow: hidden;
+	margin-top: 3px;
+}
+
+.lf{
+	width:25%;
+	float:left;	
+	background:#f4f5f5;
+	text-align:center;
+	height:93.5%;
+}
+.ip7{
+	width:50%;
+	height:128.72px;
+	float:left;
+	background-color:#FFFFFF;
+	text-align:center;
+	padding-top: 100px;
+	color:#666666;
+	font-size:18px;
+}
+.ip7tp{
+	width:50%;
+	float:right;
+	background-color:#FFFFFF ;
+}
+.font1{
+	text-decoration:line-through; 
+	text-align:center;
+}
+.lf2{
+	width:65%;
+	height:247.72px;
+	float:left;
+	margin-right:8px;
+	margin-bottom:8px;
+	background-color:#FFFFFF;
+	
+}
+
+.lf3{
+	width:33%;
+	height:247.72px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-bottom:8px;
+}
+.rg3{
+	width:32%;
+	height:248.72px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-right:8px;
+}
+
+.rg4{
+	width:33%;
+	height:248.72px;
+	float:left;
+	background-color:#FFFFFF;
+	
+}
+
+
+.lf1{
+	width:75%;
+	float:right;
+	background:#f4f5f5;
+	height:492.44px;
+}
+
+.td-img{
+	width:100%;
+	height:235px;
+
+	
+}
+.td-img1{
+	width:60%;
+	height:165.72px;
+	margin-left:45px;
+}
+.top{
+	height:60%;
+	float:inherit;
+}
+.buttom{
+	height:40%;
+	width:100%;
+	float:inherit;
+	text-align:center;
+	
+	margin-top:15%;
+	font-size: larger;
+	color:#9c9a9a;
+}
+.buttom1{
+	height:40%;
+	width:100%;
+	float:inherit;
+	margin-top: 30px;
+	
+}
+.right{
+	width:50%;
+	height:90px;
+	float:right;
+}
+.right img{
+	margin:10px;
+	padding:0px 150px;
+	
+	
+}
+.left{
+	width:50%;
+	height:90px;
+	float:left;
+}
+.left img{
+	margin:10px;
+	padding:3px 150px;
+	
+	
+}
+.li{list-style:none;}
+.box{
+	width:100%;
+	height:600px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.box ul li{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	}
+.box ul li .dask{
+	width:100%;
+	height:100%;
+	padding:16px 0 0 55px;
+
+	background:#000;
+	opacity:0.6;
+	position:absolute;
+	top:-200px;left:0;
+	line-height:200%;
+	}
+
+.bb{
+	width:100px;
+	height:32px;
+	margin-left:240px;
+	text-align:center;
+	background-color: #0082D6;
+	border:1px solid #0082D6;
+	padding:4px;
+	color:#ffffff;
+	margin-top:-78px;
+	
+}
+.bbb{
+	width:100px;
+	height:32px;
+	margin-left:4px;
+	margin-top:23px;
+	text-align:center;
+	background-color: #0082D6;
+	border:1px solid #0082D6;
+	padding:4px;
+	color:#ffffff;
+
+	
+}
+.box ul li .dask p{
+	color:#fff;
+	font-size:medium;
+
+	}
+.box ul li .dask a{
+	color:#fff;
+	text-decoration:none;
+	border-radius:2px;
+	border:1px solid;
+	float:right;
+	margin-right:120px;
+	padding:1px 9px;
+	margin-top: 0px
+	}
+.lc{
+	text-align:center;
+	font-size:30px;
+	color:#333333;
+	margin-bottom:15px;
+}
+.sp{
+	text-align:center;
+	font-size:30px;
+	color:#333333;
+	margin-bottom:-10px;
+	padding:45px;
+}
+hr{
+	width:111px;
+	margin-top:5px;
+	size:40;
+	color:#000000;
+}
+.main-content2{
+	width:100%;
+	height:1100px;
+	background-color:#FFFFFF;
+	
+}
+.main-content1{
+	width:80%;
+	height:560px;
+	margin: 0 auto;
+}
+.left1{
+	width:50%;
+	height:280px;
+	float:left;
+	overflow:hidden;
+}
+.left0{
+	width:50%;
+	height:280px;
+	float:left;
+	overflow:hidden;
+	background:url(../img1/卡券优品.jpg) no-repeat left top;
+}
+
+.left1 img{
+	width:539px;
+	height:280px;
+}
+.left11{
+	width:24.9%;
+	height:280px;
+	border:1px solid #DCDCDC;
+	float:left;
+	overflow:hidden;
+}
+.right11{
+	width:24.9%;
+	height:280px;
+	border:1px solid #DCDCDC;
+	float:right;
+	margin-top: -282px
+}
+ .vip img{
+	width:155px;
+	height:149.75px;
+	margin-left:20px;
+	margin-top: 20px;
+	
+}
+.vip img:hover{
+	width:175px;
+	height:160.75px;
+}
+.hrwj img{
+	width:155px;
+	height:149.75px;
+	margin-left:55px;
+	margin-top: 20px;
+	
+}
+.hrwj img:hover{
+	width:175px;
+	height:160.75px;
+}
+
+.zgsy img{
+	width:141px;
+	height:100.75px;
+	padding: 55px;
+	overflow:hidden;
+}
+.zgsy img:hover{
+	width:161px;
+	height:120.75px;
+}
+.ymx img{
+	width:155px;
+	height:129.75px;
+	margin-left:60px;
+	margin-top: 34px;
+	overflow:hidden;
+}
+.ymx img:hover{
+	width:175px;
+	height:149.75px;
+}
+.kp img{
+	width:155px;
+	height:111.75px;
+	margin-left:50px;
+	margin-top: 35px;
+	overflow:hidden;
+}
+.kp img:hover{
+	width:175px;
+	height:131.75px;
+}
+.ljlq{
+	margin-top:4px;
+	
+}
+
+.main-content1 .buttom1 .ljlq b{
+	font-size: 18px;
+	float:left;
+	margin-left:30px;
+	margin-top:10px;
+	text-decoration: line-through;
+}
+.main-content1 .buttom1 .ljlq a{
+	text-decoration:none;
+	color:#0082d6;
+	border:1px solid #0082d6;
+	text-align: center;
+	height:30px;
+	line-height:30px;
+	border-radius:2px;
+	width: 98px;
+	
+	margin-top:8px;
+	float:right;
+	margin-right:20px;
+}
+.main-content1 .buttom1 .ljlq a:hover{
+	background: #0082d6;
+	color: #fff;
+}
+a{
+	color:#555555;
+	margin-top:25px;
+	text-align: center;
+	outline:none;
+	text-decoration: none
+}
+a:hover{
+	color:#0082d6;
+}
+.clear {
+	clear: both; 
+	height:0px; 
+	overflow:hidden; 
+	zoom: 1;}
+.clear:after {
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.more{
+	width:80%;
+	height:60px;
+	background:#ed9402;
+	text-align: center;
+	color: #ffffff ;
+	line-height:60px;
+	margin:0 auto;
+	margin-top: 20px;
+	font-size:18px;
+}
+.moreshop{
+	width:100%;
+	height:120px;
+	background:url(../img1/moercp.jpg) no-repeat left top;
+	margin-top:20px;
+
+	}
+.moreshop1{
+	width:80%;
+	height:120px;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 45px;
+    padding: 25px;
+    
+}
+.main-content3{
+	width:100%;
+	height:765px;
+	background:#f4f5f5;
+	border-bottom:3px solid #DCDCDC;
+}
+.main-content31{
+	width:80%;
+	height:577px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.cjwt{
+	width:100%;
+	height:575px
+	border:1px solid #DCDCDC;
+}
+
+.neirongleft{
+	width:40%;
+	float:left;
+	margin-left:20px;
+	margin-top:-20px;
+	color:#9C9A9A;
+	line-height:150%;
+	font-size:14px;
+	padding:34px;
+}
+.neirongleft1{
+float: right;
+
+color:#0082d6;
+}
+
+.neirongright{
+	width:40%;
+	float:right;
+	color:#9C9A9A;
+	line-height:150%;
+	font-size:14px;
+	padding:34px;
+	margin-top:-20px;
+}
+
+
+.main-content3 .main-content31 .cjwt a{
+color:#0082d6;
+}
+
+.hrr{
+float:left;
+margin-top: -15px;
+margin-left:-5px;
+}
+.hrrr{
+float:left;
+margin-top: -15px;
+margin-left: 150px;
+}
+
+.footer1{
+	width:100%;
+	height:50px;
+	background:#f1f1f1;
+	margin-top:47px;
+	text-align: center;
+	color:#948e89;
+	padding-top: 30px;
+}
